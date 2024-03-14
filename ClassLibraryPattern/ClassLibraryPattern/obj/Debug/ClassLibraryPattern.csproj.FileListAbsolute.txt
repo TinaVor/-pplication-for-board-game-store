@@ -1,0 +1,7 @@
+C:\Users\tina_\OneDrive\Рабочий стол\ClassLibraryPattern\ClassLibraryPattern\bin\Debug\ClassLibraryPattern.dll
+C:\Users\tina_\OneDrive\Рабочий стол\ClassLibraryPattern\ClassLibraryPattern\bin\Debug\ClassLibraryPattern.pdb
+C:\Users\tina_\OneDrive\Рабочий стол\ClassLibraryPattern\ClassLibraryPattern\obj\Debug\ClassLibraryPattern.FPattern.resources
+C:\Users\tina_\OneDrive\Рабочий стол\ClassLibraryPattern\ClassLibraryPattern\obj\Debug\ClassLibraryPattern.csproj.GenerateResource.cache
+C:\Users\tina_\OneDrive\Рабочий стол\ClassLibraryPattern\ClassLibraryPattern\obj\Debug\ClassLibraryPattern.csproj.CoreCompileInputs.cache
+C:\Users\tina_\OneDrive\Рабочий стол\ClassLibraryPattern\ClassLibraryPattern\obj\Debug\ClassLibraryPattern.dll
+C:\Users\tina_\OneDrive\Рабочий стол\ClassLibraryPattern\ClassLibraryPattern\obj\Debug\ClassLibraryPattern.pdb

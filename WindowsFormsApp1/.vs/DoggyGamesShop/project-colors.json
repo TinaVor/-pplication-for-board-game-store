@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a0a2f3e4-77ad-458e-8134-f1f3e25d903e": {
+      "ProjectGuid": "a0a2f3e4-77ad-458e-8134-f1f3e25d903e",
+      "DisplayName": "DoggyGamesShop",
+      "ColorIndex": 0
+    },
+    "2a0abab2-1bdf-4e89-a56f-bd0dd76b3ba0": {
+      "ProjectGuid": "2a0abab2-1bdf-4e89-a56f-bd0dd76b3ba0",
+      "DisplayName": "Classes",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

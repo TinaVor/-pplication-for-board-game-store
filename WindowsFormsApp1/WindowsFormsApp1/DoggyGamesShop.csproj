@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0A2F3E4-77AD-458E-8134-F1F3E25D903E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClassLibraryPattern">
+      <HintPath>..\..\ClassLibraryPattern\ClassLibraryPattern\bin\Debug\ClassLibraryPattern.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ConnectDB.cs" />
+    <Compile Include="Forms\F_AddGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_AddGame.Designer.cs">
+      <DependentUpon>F_AddGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Admin.Designer.cs">
+      <DependentUpon>F_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_BuyGames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_BuyGames.Designer.cs">
+      <DependentUpon>F_BuyGames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_ChangeGamecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_ChangeGamecs.Designer.cs">
+      <DependentUpon>F_ChangeGamecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_ChangeUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_ChangeUser.Designer.cs">
+      <DependentUpon>F_ChangeUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Director.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Director.Designer.cs">
+      <DependentUpon>F_Director.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_History.Designer.cs">
+      <DependentUpon>F_History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Input.Designer.cs">
+      <DependentUpon>F_Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Regictration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Regictration.Designer.cs">
+      <DependentUpon>F_Regictration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_SeeWorkers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_SeeWorkers.Designer.cs">
+      <DependentUpon>F_SeeWorkers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_ShowGames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_ShowGames.Designer.cs">
+      <DependentUpon>F_ShowGames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F_Worker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_Worker.Designer.cs">
+      <DependentUpon>F_Worker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Forms\F_GamesCatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F_GamesCatalog.Designer.cs">
+      <DependentUpon>F_GamesCatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\F_AddGame.resx">
+      <DependentUpon>F_AddGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Admin.resx">
+      <DependentUpon>F_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_BuyGames.resx">
+      <DependentUpon>F_BuyGames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_ChangeGamecs.resx">
+      <DependentUpon>F_ChangeGamecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_ChangeUser.resx">
+      <DependentUpon>F_ChangeUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Director.resx">
+      <DependentUpon>F_Director.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_GamesCatalog.resx">
+      <DependentUpon>F_GamesCatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_History.resx">
+      <DependentUpon>F_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Input.resx">
+      <DependentUpon>F_Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Regictration.resx">
+      <DependentUpon>F_Regictration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_SeeWorkers.resx">
+      <DependentUpon>F_SeeWorkers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_ShowGames.resx">
+      <DependentUpon>F_ShowGames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F_Worker.resx">
+      <DependentUpon>F_Worker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="AllData.xsc">
+      <DependentUpon>AllData.xsd</DependentUpon>
+    </None>
+    <None Include="AllData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AllData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AllData.xss">
+      <DependentUpon>AllData.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\DOG_0.png" />
+    <Content Include="Resources\DOG_1.png" />
+    <Content Include="Resources\DOG_2.png" />
+    <Content Include="Resources\DOG_3.png" />
+    <Content Include="Resources\DOG_4.png" />
+    <None Include="Resources\DOG_41.png" />
+    <Content Include="Resources\password.png" />
+    <Content Include="Resources\yellow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
