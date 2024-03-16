@@ -27,7 +27,7 @@
 - Просмотр работников
 - Просмотр игр
 - Панель работника
-- 
+  
 # Примеры окон
 ![1](https://github.com/TinaVor/Application-for-board-game-store/assets/98979211/9eeff15d-9045-4057-b8fe-3a2b36f697a2)
 ![2](https://github.com/TinaVor/Application-for-board-game-store/assets/98979211/eda5fd30-6b8b-42b5-96df-e5ce0eefa454)
